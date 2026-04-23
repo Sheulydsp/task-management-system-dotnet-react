@@ -1,0 +1,16 @@
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/bin/Debug/net10.0/TaskManagementSystem.Application.deps.json
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/bin/Debug/net10.0/TaskManagementSystem.Application.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/bin/Debug/net10.0/TaskManagementSystem.Application.pdb
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/bin/Debug/net10.0/TaskManagementSystem.Domain.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/bin/Debug/net10.0/TaskManagementSystem.Domain.pdb
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.csproj.AssemblyReference.cache
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.AssemblyInfoInputs.cache
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.AssemblyInfo.cs
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.csproj.CoreCompileInputs.cache
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.sourcelink.json
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskMana.0F84D606.Up2Date
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/refint/TaskManagementSystem.Application.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/TaskManagementSystem.Application.pdb
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/obj/Debug/net10.0/ref/TaskManagementSystem.Application.dll

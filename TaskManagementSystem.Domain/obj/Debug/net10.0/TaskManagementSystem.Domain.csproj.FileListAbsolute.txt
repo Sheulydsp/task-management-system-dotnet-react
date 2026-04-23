@@ -1,0 +1,12 @@
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/bin/Debug/net10.0/TaskManagementSystem.Domain.deps.json
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/bin/Debug/net10.0/TaskManagementSystem.Domain.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/bin/Debug/net10.0/TaskManagementSystem.Domain.pdb
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.AssemblyInfoInputs.cache
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.AssemblyInfo.cs
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.csproj.CoreCompileInputs.cache
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.sourcelink.json
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/refint/TaskManagementSystem.Domain.dll
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/TaskManagementSystem.Domain.pdb
+/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Domain/obj/Debug/net10.0/ref/TaskManagementSystem.Domain.dll

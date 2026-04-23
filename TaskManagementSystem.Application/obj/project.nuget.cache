@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m6XP6mYGLnQ=",
+  "success": true,
+  "projectFilePath": "/Users/sheulydebnath/Documents/TaskManagementSystem/TaskManagementSystem.Application/TaskManagementSystem.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/sheulydebnath/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.5/microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
+    "/Users/sheulydebnath/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.5/microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
