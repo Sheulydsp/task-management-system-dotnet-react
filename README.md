@@ -38,6 +38,10 @@ Designed using clean architecture principles with secure authentication, real-ti
 * Mark as read on click
 * Auto-refresh (polling every 5 seconds)
 
+### User Feedback
+- Toast notifications for success and error actions
+- Immediate feedback on task creation, update, and assignment  
+
 ###  Activity Log
 
 * Tracks task history:
@@ -86,7 +90,7 @@ Backend follows **Clean Architecture**:
 * Git & GitHub
 
 
-## 🐳 Database (SQL Server via Docker)
+## Database (SQL Server via Docker)
 
 Make sure SQL Server container is running:
 
@@ -97,7 +101,7 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourPassword123!" \
 ```
 
 
-### 🔗 Connection String
+###  Connection String
 
 Update the `ConnectionStrings` in `appsettings.json`:
 
@@ -192,7 +196,6 @@ npm run dev
 * Email integration for password reset
 * Advanced analytics dashboard
 * Mobile responsiveness improvements
-
 
 
 ##  Author
