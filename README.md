@@ -154,16 +154,18 @@ npm run dev
 ![Dashboard](./screenshots/Dashboard.png)
 
 ### Task Details (Activity Log)
+![Task Details](./screenshots/Task-deatils.png)
+### Tasks
 ![Completed Task](./screenshots/CompletedTask.png)
 ![Pending Task](./screenshots/PendingTask.png)
-![Task Details](./screenshots/Task-deatils.png)
 
 
-### Notifications
+
+### Create Task
 ![Create Task](./screenshots/CreateTask.png)
 
 ### Profile
-![Profile](./screenshots/profile.png)
+![Profile](./screenshots/Profile.png)
 
 ### Login
 ![Login](./screenshots/login.png)
