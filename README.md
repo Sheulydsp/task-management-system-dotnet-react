@@ -3,7 +3,6 @@
 A full-stack task management application built with **ASP.NET Core Web API** and **React (TypeScript)**.
 Designed using clean architecture principles with secure authentication, real-time-like notifications, and activity tracking.
 
----
 
 ##  Features
 
@@ -54,7 +53,6 @@ Designed using clean architecture principles with secure authentication, real-ti
 * Profile image upload
 * Persistent user data
 
----
 
 ##  Architecture
 
@@ -65,7 +63,7 @@ Backend follows **Clean Architecture**:
 * **Infrastructure** → Database and repositories
 * **API** → Controllers and endpoints
 
----
+
 
 ##  Tech Stack
 
@@ -87,7 +85,6 @@ Backend follows **Clean Architecture**:
 * Docker (SQL Server container)
 * Git & GitHub
 
----
 
 ## 🐳 Database (SQL Server via Docker)
 
@@ -99,7 +96,6 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourPassword123!" \
 -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 
----
 
 ### 🔗 Connection String
 
@@ -112,8 +108,6 @@ Update the `ConnectionStrings` in `appsettings.json`:
   }
 }
 ```
-
----
 
 ##  Setup Instructions
 
@@ -129,7 +123,6 @@ dotnet ef database update \
 
 dotnet run --project TaskManagementSystem.API
 
----
 
 ###  Frontend (React)
 
@@ -137,7 +130,6 @@ cd task-ui
 npm install
 npm run dev
 
----
 
 ##  Demo Credentials
 
@@ -146,7 +138,6 @@ npm run dev
 * Email: [admin@test.com](mailto:admin@test.com)
 * Password: 123456
 
----
 
 ##  Screenshots
 
@@ -172,7 +163,6 @@ npm run dev
 ![Register](./screenshots/register.png)
 ![Forgot Password](./screenshots/forgotpass.png)
 
----
 
 ##  Key Highlights
 
@@ -184,7 +174,6 @@ npm run dev
 * Full-stack integration (API + React)
 * Docker-based SQL Server setup
 
----
 
 ##  What I Learned
 
@@ -195,7 +184,6 @@ npm run dev
 * Handling real-world features like notifications and activity logs
 * Using Docker for database setup and environment consistency
 
----
 
 ##  Future Improvements
 
@@ -205,7 +193,7 @@ npm run dev
 * Advanced analytics dashboard
 * Mobile responsiveness improvements
 
----
+
 
 ##  Author
 
