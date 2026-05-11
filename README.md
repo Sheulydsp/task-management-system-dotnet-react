@@ -1,122 +1,129 @@
-#  Workflow Management Platform
+# Workflow Management Platform
 
-A full-stack Workflow Management Platform application built with **ASP.NET Core Web API** and **React (TypeScript)**.
-Designed using clean architecture principles with secure authentication, real-time-like notifications, and activity tracking.
+A full-stack workflow management platform built using ASP.NET Core Web API and React. The application was designed to simulate real-world business workflows with focus on scalable backend architecture, structured domain separation, authentication and authorization, activity tracking, and maintainable full-stack development practices.
 
+---
 
-##  Features
+## Overview
 
-###  Authentication & Security
+The platform supports task assignment, workflow tracking, role-based access control, notifications, audit logging, and dashboard analytics within a structured multi-layered architecture.
 
-* JWT-based authentication
-* Role-based access control (Admin, Manager, User)
-* Secure Forgot & Reset Password flow (token-based)
+The project follows Clean Architecture principles to maintain clear separation between business logic, application services, infrastructure concerns, and API boundaries.
 
-###  Task Management
+---
 
-* Create, update, tasks
-* Assign tasks to users
-* Status tracking (Todo, In Progress, Done)
-* Priority levels (Low, Medium, High)
-* Concurrency handling with RowVersion
+## Core Features
 
-###  Dashboard
+### Authentication & Authorization
+- JWT-based authentication
+- Role-based authorization (Admin, Manager, User)
+- Secure password reset workflow
+- Protected API endpoints and token validation
 
-* Kanban board (Todo, In Progress, Done)
-* Analytics:
+### Workflow Management
+- Task creation, updates, and assignment
+- Workflow status tracking
+- Priority management
+- Activity history and audit logging
+- Optimistic concurrency handling using RowVersion
 
-  * Total tasks
-  * Completed tasks
-  * Overdue tasks
-  * Completion rate
-* Most urgent task detection
+### Dashboard & Analytics
+- Kanban-style workflow visualization
+- Task completion metrics
+- Overdue task monitoring
+- Priority-based workflow insights
 
-###  Notification System
+### Notifications
+- Task assignment notifications
+- Unread notification tracking
+- Polling-based near real-time updates
 
-* Notification when task is assigned
-* Unread notification badge
-* Mark as read on click
-* Auto-refresh (polling every 5 seconds)
+### User Management
+- Profile management
+- User image upload
+- Persistent account settings
 
-### User Feedback
-- Toast notifications for success and error actions
-- Immediate feedback on task creation, update, and assignment  
+---
 
-###  Activity Log
+## System Architecture
 
-* Tracks task history:
+The backend follows a layered Clean Architecture approach:
 
-  * Task created
-  * Task updated
-  * Status changes
-* Timestamped audit trail
+### Domain Layer
+Core entities and domain models
 
-###  User Profile
+### Application Layer
+Business rules, interfaces, and use cases
 
-* Update name and email
-* Profile image upload
-* Persistent user data
+### Infrastructure Layer
+Database access, repositories, and external integrations
 
+### API Layer
+RESTful API endpoints and request handling
 
-##  Architecture
+---
 
-Backend follows **Clean Architecture**:
-
-* **Domain** → Entities and core models
-* **Application** → Business logic and interfaces
-* **Infrastructure** → Database and repositories
-* **API** → Controllers and endpoints
-
-
-
-##  Tech Stack
+## Technology Stack
 
 ### Backend
-
-* ASP.NET Core Web API (.NET 8)
-* Entity Framework Core
-* SQL Server (Docker)
-* JWT Authentication
+- ASP.NET Core Web API (.NET 8)
+- Entity Framework Core
+- SQL Server
+- Azure SQL Database
+- JWT Authentication
 
 ### Frontend
+- React
+- TypeScript
+- Axios
 
-* React (TypeScript)
-* Axios
-* Bootstrap
+### Development & Tooling
+- Docker
+- Git & GitHub
 
-### DevOps / Tools
+---
 
-* Docker (SQL Server container)
-* Git & GitHub
+## Technical Focus Areas
 
+- RESTful API design
+- Clean Architecture implementation
+- Authentication and authorization
+- Database design and relational data management
+- Structured backend layering
+- Workflow-oriented business logic
+- Maintainable and extensible application structure
+- Performance-focused backend development
+- Full-stack integration between API and frontend
 
-## Database (SQL Server via Docker)
+---
 
-Make sure SQL Server container is running:
+## Database Setup
+
+The project supports both local SQL Server development using Docker and cloud-based persistence using Azure SQL Database.
+For local development, SQL Server can be started using the following Docker container:
 
 ```bash
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourPassword123!" \
 -p 1433:1433 --name sqlserver \
 -d mcr.microsoft.com/mssql/server:2022-latest
+
 ```
 
 
 ###  Connection String
 
-Update the `ConnectionStrings` in `appsettings.json`:
+Update the database connection string in appsettings.json:
 
-```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost,1433;Database=TaskDb;User Id=sa;Password=YourPassword123!;TrustServerCertificate=True"
   }
 }
-```
 
-##  Setup Instructions
+##  Running the Application
 
 ###  Backend
-## Backend (.NET API)
+
 Run from the root folder:
 
 dotnet restore 
@@ -124,11 +131,10 @@ dotnet restore
 dotnet ef database update \
 --project TaskManagementSystem.Infrastructure \
 --startup-project TaskManagementSystem.API
-
 dotnet run --project TaskManagementSystem.API
 
 
-###  Frontend (React)
+###  Frontend
 
 cd task-ui
 npm install
@@ -168,34 +174,15 @@ npm run dev
 ![Forgot Password](./screenshots/forgotpass.png)
 
 
-##  Key Highlights
-
-* Clean architecture implementation
-* Secure authentication and password reset flow
-* Notification system with unread tracking
-* Activity logging for auditability
-* Optimistic UI updates
-* Full-stack integration (API + React)
-* Docker-based SQL Server setup
-
-
-##  What I Learned
-
-* Designing scalable backend architecture in ASP.NET Core
-* Implementing secure authentication with JWT
-* Managing relational data using Entity Framework
-* Building a responsive frontend using React
-* Handling real-world features like notifications and activity logs
-* Using Docker for database setup and environment consistency
-
 
 ##  Future Improvements
 
-* Real-time notifications using SignalR
-* Drag & drop Kanban board
-* Email integration for password reset
-* Advanced analytics dashboard
-* Mobile responsiveness improvements
+* SignalR-based real-time notifications
+* Drag-and-drop Kanban interactions
+* Email integration workflows
+* Expanded analytics and reporting
+* Improved mobile responsiveness
+* CI/CD deployment pipeline integration
 
 
 ##  Author
@@ -204,9 +191,8 @@ Sheuly Debnath
 MSc in Electronics, Informatics and Technology  
 University of Oslo  
 
-Full-Stack Developer (.NET, React, SQL Server, Docker)
 
 ##  Contact
 
-- LinkedIn: https://www.linkedin.com/in/sheulydebanth/
+- LinkedIn: [https://www.linkedin.com/in/sheulydebanth/](https://www.linkedin.com/in/debnathsheuly/)
 - Email: sheulycse.mbstu@gmail.com
