@@ -1,6 +1,6 @@
-#  Task Management System
+#  Workflow Management Platform
 
-A full-stack task management application built with **ASP.NET Core Web API** and **React (TypeScript)**.
+A full-stack Workflow Management Platform application built with **ASP.NET Core Web API** and **React (TypeScript)**.
 Designed using clean architecture principles with secure authentication, real-time-like notifications, and activity tracking.
 
 
